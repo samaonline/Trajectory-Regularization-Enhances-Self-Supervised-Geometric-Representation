@@ -6,7 +6,7 @@ This is the author's re-implementation of the method described in:
 "[Trajectory Regularization Enhances Self-Supervised Geometric Representation](https://arxiv.org/abs/2403.14973)"   
 [Jiayun Wang](http://pwang.pw/),&nbsp; [Yubei Chen](https://redwood.berkeley.edu/people/yubei-chen/),&nbsp;
 [Stella X. Yu](https://www1.icsi.berkeley.edu/~stellayu/); (UC Berkeley & UC Davis & U Michigan)&nbsp;
-in ArXiv (2024).
+in 2024 European Conference on Computer Vision (ECCV).
 
 ## Dataset Generation
 For the ShapeNet dataset rendering, please refer to the [data_rendering folder](./data_rendering). Detailed instructions will be added soon.
@@ -33,10 +33,11 @@ This repo is heavily built on [solo-learn](https://github.com/vturrisi/solo-lear
 ## License and Citation
 The use of this software is released under [GNU GENERAL PUBLIC LICENSE](./LICENSE).
 ```
-@article{wang2024trajectory,
+@inproceedings{wang2024trajectory,
   title={Trajectory Regularization Enhances Self-Supervised Geometric Representation},
   author={Wang, Jiayun and Yu, Stella X and Chen, Yubei},
-  journal={arXiv preprint arXiv:2403.14973},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  year={2024},
+  organization={Springer}
 }
 ```
